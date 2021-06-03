@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router,
   Switch,
-  Route, } from 'react-router-dom';
+  Route,HashRouter } from 'react-router-dom';
 import { hot } from 'react-hot-loader';
 import logo from './logo.svg';
 import './App.css';
@@ -18,7 +18,7 @@ import './stylesheets/main.scss';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter basename='/'>
         <div className="App">
           {/* <ContextProvider> */}
           {/* <Header /> */}
@@ -33,7 +33,7 @@ class App extends Component {
           {/* <Footer /> */}
           {/* </ContextProvider> */}
         </div>
-      </Router>
+      </HashRouter >
     );
   }
 }
