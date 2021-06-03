@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.705" height="33" viewBox="0 0 27.705 33">
+  <defs>
+    <filter id="Path_481" x="0" y="0" width="27.705" height="29.94" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#cb8100"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_480" x="3.607" y="12.82" width="20.492" height="20.18" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#cb8100" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="question" transform="translate(9.001 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_481)">
+      <path id="Path_481-2" data-name="Path 481" d="M9.7,4.853A4.853,4.853,0,1,0,0,4.853h2.49A2.363,2.363,0,1,1,4.852,7.216H3.606V11.94H6.1v-2.4A4.855,4.855,0,0,0,9.7,4.853Zm0,0" transform="translate(9 6)" fill="#fafafa"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Path_480)">
+      <path id="Path_480-2" data-name="Path 480" d="M123.113,437.586H125.6v2.18h-2.492Zm0,0" transform="translate(-110.51 -418.77)" fill="#fafafa"/>
+    </g>
+  </g>
+</svg>

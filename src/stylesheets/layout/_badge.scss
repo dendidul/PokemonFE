@@ -1,0 +1,138 @@
+.icon-wrapper {
+  position: absolute;
+
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+.icon-gift {
+  text-align: center;
+  
+  background-image: linear-gradient(#5ade8d,#1a3951, #0a1042);
+
+  img {
+    height: 45px;
+  }
+}
+
+.icon-fun {
+  text-align: center;
+  
+  background: #f25879;
+
+  img {
+    height: 45px;
+  }
+}
+
+.icon-chat {
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  
+  background-image: linear-gradient(#f74177, #e57553);
+
+  img {
+    height: 28px;
+  }
+}
+
+.icon-question-mark {
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  
+  background-image: linear-gradient(#e29142, #de8a44);
+
+  img {
+    height: 31px;
+    margin-top: 6px;
+  }
+}
+
+.icon-like {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  background-image: linear-gradient(#fd3777,#552f9c);
+
+  img {
+    height: 34px;
+  }
+
+  span {
+    display: block;
+
+    font-family: $font-poppins-regular;
+    font-size: 10px;
+    margin-top: -14px;
+    color: $white;
+    letter-spacing: 0.7px;
+  }
+}
+
+.like-badge {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  background: $white;
+
+  span {
+    display: block;
+    margin-top: 9px;
+    width: 100%;
+
+    font-family: $font-poppins-regular;
+    font-size: 11px;
+    color: #7c88a3;
+    letter-spacing: 0.7px;
+    font-weight: 800;
+  }
+
+  p {
+    width: 100%;
+    margin-top: -3px;
+
+    font-size: 9px;
+    color: #7c88a3;
+  }
+}
+
+
+.number-badge {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: $white;
+
+  p {
+    width: 100%;
+    margin-bottom: 0;
+
+    font-size: 11px;
+    color: #7c88a3;
+  }
+}
+
+.icon {
+  display: flex;
+  // justify-content: center;
+  width: 39px;
+  height: 39px;
+
+  border-radius: 100%;
+
+  img {
+    display: block;
+  }
+}

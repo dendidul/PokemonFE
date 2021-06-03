@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <g id="program" transform="translate(-351 -272)">
+    <g id="Group_1023" data-name="Group 1023" transform="translate(351 278.312)">
+      <g id="Group_1022" data-name="Group 1022" transform="translate(0 0)">
+        <rect id="Rectangle_331" data-name="Rectangle 331" class="cls-1" width="22" height="3" transform="translate(0 -0.312)"/>
+      </g>
+    </g>
+    <g id="Group_1027" data-name="Group 1027" transform="translate(359 284)">
+      <g id="Group_1026" data-name="Group 1026" transform="translate(0 0)">
+        <rect id="Rectangle_333" data-name="Rectangle 333" class="cls-1" width="14" height="3"/>
+      </g>
+    </g>
+    <g id="Group_1029" data-name="Group 1029" transform="translate(351 284)">
+      <g id="Group_1028" data-name="Group 1028" transform="translate(0 0)">
+        <rect id="Rectangle_334" data-name="Rectangle 334" class="cls-1" width="6" height="3"/>
+      </g>
+    </g>
+    <g id="Group_1030" data-name="Group 1030" transform="translate(365 275) rotate(180)">
+      <g id="Group_1026-2" data-name="Group 1026" transform="translate(0 0)">
+        <rect id="Rectangle_333-2" data-name="Rectangle 333" class="cls-1" width="14" height="3"/>
+      </g>
+    </g>
+    <g id="Group_1031" data-name="Group 1031" transform="translate(373 275) rotate(180)">
+      <g id="Group_1028-2" data-name="Group 1028" transform="translate(0 0)">
+        <rect id="Rectangle_334-2" data-name="Rectangle 334" class="cls-1" width="6" height="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,57 @@
+.home {
+  padding-bottom: auto;
+  
+  background: #071042;
+
+  .fan-questions {
+    margin-top: 31px;
+    
+    .section-title {
+      text-transform: uppercase;
+      color: $purple;
+    }
+  }
+}
+
+// .content-container {
+//   max-width: 100%;
+// }
+
+.section-live {
+  margin-top: 25px;
+}
+
+.section-featured {
+  margin-top: 29px;
+}
+
+.section-entertainment {
+  margin-top: 30px;
+}
+
+.swiper-video {
+  padding-top: 28px;
+}
+
+.notification {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-size: 11px;
+    width: 87%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .notif-icon {
+    position: relative;
+  }
+
+  .notif-on {
+    position: absolute;
+    right: 0;
+  }
+}

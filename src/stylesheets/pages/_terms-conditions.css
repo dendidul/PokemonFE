@@ -1,0 +1,39 @@
+.terms-conditions .content-wrapper {
+  padding-top: 25px;
+}
+
+.terms-conditions .content-wrapper p {
+  font-size: 15px;
+  letter-spacing: 0.45px;
+  line-height: 24px;
+  color: #e1e1e1;
+  text-align: left;
+  margin: 15px 0 20px;
+}
+
+.terms-conditions .content-wrapper .box-terms {
+  background-color: #fff;
+  border-radius: 10px;
+  min-height: 300px;
+  margin-bottom: 25px;
+  padding: 12px 10px 10px;
+}
+
+.terms-conditions .content-wrapper .box-terms p {
+  margin-top: 0;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1.2px;
+  color: #391d81;
+  padding-bottom: 15px;
+  border-bottom: dashed 1px #391d81;
+}
+
+.terms-conditions .content-wrapper .box-terms p:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.terms-conditions .button-holder .btn-pink {
+  margin-bottom: 2.5em;
+}

@@ -1,0 +1,58 @@
+.search-qa-wrapper {
+
+  background: #071143;
+  
+  .search-wrapper {
+    display: flex;
+    align-items: center;
+
+    .search-bar {
+      flex: 0 0 92%;
+      padding-top: 0;
+      margin-right: 10px;
+
+      .form-group {
+        margin: 0;
+      }
+    }
+  }
+  .section-title {
+    font-family:"Poppins-Regular";
+    font-size: 18px;
+    letter-spacing: 0.38px;
+    font-weight: bold;
+  }
+
+  .see-all-link {
+    font-family:"Poppins-Regular";
+    font-size: 15px;
+    color: #925afb;
+  }
+
+  .swiper-container {
+    margin: 0;
+    // padding-left: 28px;
+
+    // .swiper-slide {
+    //   margin-right: 15px !important;
+    // }
+  }
+  .owner-name {
+    font-family: "Poppins-Regular"!important;
+    font-size: 14px!important;
+  }
+  .second-row .best-question {
+    letter-spacing: 1.3px;
+    line-height: 18px;
+  }
+  .see-question.question-by {
+    font-family: "Poppins-Regular";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 17px;
+  }
+  .btn-vote .fan-votes {
+    font-size: 9px;
+  }
+}

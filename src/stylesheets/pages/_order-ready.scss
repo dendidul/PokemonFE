@@ -1,0 +1,41 @@
+.btn-share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 100%;
+
+  img {
+    margin-left: -5px;
+    margin-top: 5px;
+  }
+}
+
+.video-content {
+  height: 200px;
+}
+
+.ready-container,
+.content-wrapper {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.content-wrapper {
+  justify-content: space-between;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .btn-share {
+    flex: 0 0 20%;
+  }
+
+  .btn-pink {
+    flex: 0 0 77%;
+  }
+}

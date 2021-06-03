@@ -1,0 +1,102 @@
+.fan-questions {
+  margin-top: 20px;
+
+  .swiper {
+    padding-left: 20px;
+  }
+}
+
+.slider-fan-question {
+  padding: 15px;
+
+  background: linear-gradient(132deg, rgba(85,47,156,1) 0%, rgba(85,47,156,1) 28%, rgba(152,61,141,1) 68%, rgba(152,61,141,1) 100%);
+  border-radius: 7px;
+
+  cursor: pointer;
+}
+
+.fan-data {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fan-name {
+  margin-bottom: 0;
+}
+
+.fan-message {
+  margin-bottom: 15px;
+}
+
+.fan-name,
+.fan-message {
+  font-family: $font-poppins-regular;
+  font-size: 13px;
+  white-space: break-spaces;
+}
+.fan-message {
+    height: 75px;
+    overflow: auto;
+}
+
+.fan-image {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+
+  border-radius: 50px;
+}
+
+.fan-chat {
+  width: 100%;
+}
+
+.fan-nice {
+  position: relative;
+  top: 2px;
+  left: 4px;
+}
+
+.message-action-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vote-wrapper {
+  margin: 0 auto;
+  position: relative;
+  left: -9px;
+}
+
+.btn-vote {
+  border: none;
+  color: #ffffff;
+  background: linear-gradient(300deg, #fe2b87 0%, #791666 44%, #791666 64%, #791666 100%);
+  padding: 0;
+  font-family: "Poppins-Regular";
+  font-weight: 100;
+  width: 91px;
+  border-radius: 40px;
+  height: 30px;
+  display: flex;
+  flex: 0 0 75%;
+  align-items: center;
+
+  .fan-votes {
+    position: relative;
+    font-size: 10px;
+    vertical-align: middle;
+  }
+}
+
+.read-more-text {
+  color: $petal;
+
+  &:hover {
+    color: $petal;
+    text-decoration: none;
+  }
+}

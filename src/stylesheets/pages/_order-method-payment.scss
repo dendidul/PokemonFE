@@ -1,0 +1,53 @@
+body {
+    font-family: $font-poppins-regular;
+}
+.content-pembayaran .img-profile {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}
+.content-pembayaran .linkget {
+    color: #925afb;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+}
+.content-pembayaran .form-group h4 {
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 23px;
+    color: #fafafa;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.content-pembayaran label {
+    font-weight: 200;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+    line-height: 18px;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#accordion-pembayaran .card .card-header h2 button {
+    color: #fff;
+    padding: 4.5px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+img.left-arrow--- {
+    height: 12px;
+    margin-bottom: 0;
+    position: absolute;
+    right: 20px;
+    width: auto;
+    top: 24px;
+}
+.card-body {
+    color: #fff;
+    font-size: 1rem;
+} 

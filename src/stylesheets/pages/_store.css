@@ -1,0 +1,67 @@
+.store-conditions .content-wrapper {
+  padding-top: 25px;
+}
+
+.store-conditions .content-wrapper p {
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 23px;
+  color: #fafafa;
+  text-align: center;
+  margin: 15px 0 20px;
+}
+
+.store-conditions .content-wrapper .box-store {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.store-conditions .content-wrapper .sub-box-store {
+  position: relative;
+  flex: 0 1 44%;
+  background-image: linear-gradient(to bottom, #552f9c, #983d8d);
+  height: 110px;
+  border-radius: 5px;
+  border: solid 1px #8e3b8f;
+  margin: 0 3% 15%;
+}
+
+.store-conditions .content-wrapper .sub-box-store img {
+  height: 80px;
+  margin: auto;
+}
+
+.store-conditions .content-wrapper .sub-box-store .box-top {
+  height: 50px;
+  width: 50px;
+  background-size: contain;
+  position: absolute;
+  letter-spacing: 0.6px;
+  color: #fff;
+  font-size: 6px;
+}
+
+.store-conditions .content-wrapper .sub-box-store .box-top span {
+  transform: rotate(-38deg);
+  position: absolute;
+  left: -5px;
+  top: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.store-conditions .content-wrapper .sub-box-store .box-bottom {
+  background-image: linear-gradient(to left, #2c1677, #552f9c);
+  position: absolute;
+  width: 71%;
+  margin: auto;
+  left: 10px;
+  right: 10px;
+  font-size: 8px;
+  height: auto;
+  padding: 7px;
+  color: #fafafa;
+  border-radius: 30px;
+  margin-top: 17px;
+  border: solid 1px #4d2fa8;
+}

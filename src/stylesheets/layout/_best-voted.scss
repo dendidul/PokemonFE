@@ -1,0 +1,175 @@
+.best-voted-wrapper {
+  background: $eggplant;
+
+  .best-voted-block {
+    padding: 30px;
+  }
+
+  .question-wrapper {
+    padding: 15px;
+
+    background: linear-gradient(132deg, rgba(85,47,156,1) 0%, rgba(85,47,156,1) 28%, rgba(152,61,141,1) 68%, rgba(152,61,141,1) 100%);
+    border-radius: 7px;
+
+    .first-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+
+      .best-voted-owner {
+        display: flex;
+        align-items: center;
+
+        .round-image {
+          margin-right: 10px;
+          width: 40px;
+          height: 40px;
+        }
+
+        .owner-name {
+          font-family: $font-roboto;
+          font-weight: 200;
+          font-size: 12px;
+          color: $white;
+        }
+      }
+
+      .best-voted-badge {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 130px;
+
+        font-family: $font-poppins-regular;
+        font-weight: bold;
+        font-size: 12px;
+        color: $light-yellow;
+
+        background: $mud;
+        border-radius: 50px;
+
+        .star-icon {
+          margin-top: 5px;
+        }
+      }
+    }
+
+    .second-row {
+      margin-bottom: 30px;
+
+      .best-question {
+        font-family: $font-poppins-regular;
+        font-size: 13px;
+        color: white;
+      }
+    }
+
+    .third-row {
+      display: flex;
+      justify-content: space-between;
+
+      .see-question {
+        font-family: $font-roboto;
+        font-weight: 200;
+        font-size: 12px;
+        color: $petal;
+      }
+
+      .btn-vote {
+        padding: 0 7px;
+        margin-right: 3px;
+        width: auto;
+
+        background: linear-gradient(90deg, rgba(13,17,71,1) 0%, rgba(30,19,97,1) 67%, rgba(42,22,116,1) 100%);
+      }
+
+      .action-list {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.question-wrapper {
+  padding: 15px;
+
+  background: linear-gradient(132deg, rgba(85,47,156,1) 0%, rgba(85,47,156,1) 28%, rgba(152,61,141,1) 68%, rgba(152,61,141,1) 100%);
+  border-radius: 7px;
+
+  .first-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    .best-voted-owner {
+      display: flex;
+      align-items: center;
+
+      .round-image {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .owner-name {
+        font-family: $font-roboto;
+        font-weight: 200;
+        font-size: 12px;
+        color: $white;
+      }
+    }
+
+    .best-voted-badge {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 130px;
+
+      font-family: $font-poppins-regular;
+      font-weight: bold;
+      font-size: 12px;
+      color: $light-yellow;
+
+      background: $mud;
+      border-radius: 50px;
+
+      .star-icon {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .second-row {
+    margin-bottom: 30px;
+
+    .best-question {
+      font-family: $font-poppins-regular;
+      font-size: 13px;
+      color: white;
+    }
+  }
+
+  .third-row {
+    display: flex;
+    justify-content: space-between;
+
+    .see-question {
+      font-family: $font-roboto;
+      font-weight: 200;
+      font-size: 12px;
+      color: $petal;
+    }
+
+    .btn-vote {
+      padding: 0 7px;
+      margin-right: 3px;
+      width: auto;
+
+      background: linear-gradient(90deg, rgba(13,17,71,1) 0%, rgba(30,19,97,1) 67%, rgba(42,22,116,1) 100%);
+    }
+
+    .action-list {
+      padding: 0;
+    }
+  }
+}

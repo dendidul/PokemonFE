@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #da2e73;
+      }
+
+      .cls-2 {
+        filter: url(#search);
+      }
+    </style>
+    <filter id="search" x="0" y="0" width="21" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#fd3777" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="search-2" data-name="search" class="cls-1" d="M8.848,0A6.149,6.149,0,0,0,4.117,10.081L.173,14A.586.586,0,1,0,1,14.83l3.949-3.922a6.149,6.149,0,0,0,6.911.611.586.586,0,0,0-.574-1.021,4.978,4.978,0,1,1,1.892-1.881A.586.586,0,1,0,14.2,9.2,6.154,6.154,0,0,0,8.848,0Z" transform="translate(3 2)"/>
+  </g>
+</svg>

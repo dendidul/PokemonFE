@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-2 {
+        filter: url(#present);
+      }
+    </style>
+    <filter id="present" x="0" y="0" width="33" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#003b39" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="present-2" data-name="present" class="cls-1" d="M14.375,2.5H11.509l.183-.183a.625.625,0,0,0,0-.884L10.442.183a.625.625,0,0,0-.884,0L7.5,2.241,5.442.183a.625.625,0,0,0-.884,0l-1.25,1.25a.625.625,0,0,0,0,.884l.183.183H.625A.625.625,0,0,0,0,3.125V6.25a.625.625,0,0,0,.625.625H1.25v7.5A.625.625,0,0,0,1.875,15h11.25a.625.625,0,0,0,.625-.625v-7.5h.625A.625.625,0,0,0,15,6.25V3.125a.625.625,0,0,0-.625-.625ZM10,1.509l.366.366L9.741,2.5H9.009Zm-5.366.366L5,1.509l.991.991H5.259Zm-2.134,5h.625a.625.625,0,0,0,0-1.25H1.25V3.75H6.875V5.625H5.625a.625.625,0,0,0,0,1.25h1.25V13.75H2.5Zm10,6.875H8.125V6.875H12.5Zm1.25-8.125H8.125V3.75H13.75Zm0,0" transform="translate(9 6)"/>
+  </g>
+</svg>

@@ -1,0 +1,259 @@
+.order {
+  position: relative;
+
+  min-height: 100vh;
+
+  background-color: $navy;
+
+  .content-wrapper {
+    padding-top: 50px;
+
+    text-align: center;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    margin: 15px 20px 61px;
+    
+    font-size: 14px;
+  }
+
+  &-validation {
+    .button-holder {
+      position: absolute;
+      left: 50%;
+      bottom: 15%;
+
+      width: 90%;
+
+      transform: translateX(-50%);
+    }
+
+    .btn-white {
+      box-shadow: 0 5px 12px -2px rgba(85,47,156,1);
+    }
+  }
+
+  &-success {
+    .icon-check {
+      margin: 0 auto 19px;
+      width: 149px;
+    }
+
+    .suggestion-holder {
+      padding-top: 30px;
+      margin-top: 84px;
+      
+      border-top: 2px solid $fiord;
+
+      p {
+        font-family: $font-poppins-regular;
+        
+        &:first-child {
+          margin-bottom: 13px;
+
+          font-weight: 500;
+          font-size: 14px;
+        }
+  
+        &:last-child {
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+    }
+  }
+
+  &-verification {
+    .form-group {
+      display: flex;
+    }
+
+    .form-control:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    input {
+      text-align: center;
+    }
+
+    .trivia-holder {
+      margin: 96px 0 24px;
+      padding: 30px 0 23px;
+
+      border-top: 2px solid $fiord;
+      border-bottom: 2px solid $fiord;
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &-personal {
+    .profile-image {
+      margin: 28px auto 15px;
+      width: 120px;
+      height: 120px;
+      overflow: hidden;
+
+      border-radius: 50%;
+      border: 2px solid $fiord;
+
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .name {
+      margin-bottom: 29px;
+
+      font-size: 19px;
+    }
+
+    .btn-pink {
+      margin-top: 14px;
+    }
+  }
+
+  &-confirmation {
+    .title {
+      margin-bottom: 14px;
+    }
+
+    .detail-item-wrapper {
+      text-align: initial;
+
+      &:nth-of-type(2) {
+        padding-bottom: 36px;
+        margin-bottom: 12px;
+
+        border-bottom: 2px solid $fiord;
+      }
+    }
+
+    .content-holder,
+    .subtotal-holder {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .promo-holder,
+    .subtotal-holder {
+      font-size: 15px;
+      color: $white;
+
+      border-bottom: 2px solid $fiord;
+    }
+
+    .promo-holder {
+      margin: 35px 0 25px;
+
+      a {
+        font-size: 14px;
+        color: $purple;
+
+        &:hover {
+          color: $grape;
+          text-decoration: initial;
+        }
+      }
+
+      p {
+        margin-bottom: 7px;
+      }
+
+      .content-holder {
+        &:last-child {
+          span {
+            font-size: 13px;
+          }
+        }
+
+        &:only-child {
+          padding: 20px 0 16px;
+          border-top: 2px solid $fiord;
+
+          span {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+
+    .subtotal-holder {
+      padding-bottom: 16px;
+
+      border-bottom: 2px solid rgba(72, 73, 82, 0.5294117647058824)
+    }
+
+    .btn-pink {
+      margin: 33px 0;
+    }
+  }
+
+  &-promo {
+    .content-wrapper {
+      padding: 36px 11px 0;
+
+      .promo-wrapper {
+        padding: 17px 15px 0;
+
+        background-color: $white;
+        border-radius: 6px;
+
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+
+        .content-holder {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 4px;
+        }
+
+        h2,
+        p {
+          margin: 0;
+        }
+
+        h2 {
+          font-size: 18px;
+        }
+
+        .code {
+          font-size: 12px;
+        }
+
+        .discount {
+          font-size: 18px;
+          text-align: initial;
+        }
+
+        .date {
+          font-size: 13px;
+        }
+
+        .btn-pink {
+          font-size: 14px;
+        }
+      }
+
+      input {
+        color: $white;
+
+        ::-webkit-search-cancel-button{
+          color: $white;
+
+          background-image:url('../../assets/images/icon-search.svg');
+        }
+      }
+    }
+  }
+}

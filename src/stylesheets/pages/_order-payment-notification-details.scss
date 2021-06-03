@@ -1,0 +1,25 @@
+.order-payment-notification {
+  color: $white;
+
+  .container {
+    padding: 0 25px;
+  }
+
+  .question {
+    display: flex;
+    min-height: 46.5vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+
+    p {
+      font-size: 12px;
+      font-weight: 100;
+      text-align: center;
+    }
+  }
+
+  a {
+    color: $purple;
+  }
+}

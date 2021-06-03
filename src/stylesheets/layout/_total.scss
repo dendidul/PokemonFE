@@ -1,0 +1,25 @@
+.total-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+
+  font-family: $font-poppins-regular;
+  color: $white;
+
+  .total-label {
+    margin-bottom: 0;
+    font-size: 11px;
+  }
+
+  .amount-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .total-amount {
+    margin-right: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+}

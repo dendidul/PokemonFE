@@ -1,0 +1,84 @@
+.search-talent {
+  min-height: 100vh;
+  background-color: $navy;
+
+  .nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 0;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+    &::-webkit-scrollbar { width: 0 !important }
+  }
+
+  .nav-link {
+    position: relative;
+
+    padding: initial;
+
+    font-size: 15px;
+    color: $grape;
+    white-space: nowrap;
+
+    border: initial;
+
+    &.active,
+    &:hover {
+      color: $purple;
+    
+      background-color: transparent;
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -11px;
+        left: 50%;
+
+        width: 25px;
+        height: 1.5px;
+
+        background-color: $purple;
+        transform: translateX(-50%);
+      }
+    }
+
+    &:hover {
+      text-decoration: initial;
+    }
+  }
+
+  .nav-item:not(:last-child) {
+    margin-right: 35px;
+    height: 40px;
+  }
+
+  .results-holder .tab-pane.active {
+    min-height: 100vh;
+  }
+  
+  .card-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card-holder {
+    margin-bottom: 15px;
+    width: 48%;
+  }
+
+  .text-profile .first-p {
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 13px;
+    margin-bottom: 5px;
+  }
+  .text-profile .last-p {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+
+}

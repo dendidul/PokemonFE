@@ -1,0 +1,89 @@
+.section-entertainment {
+  &:after,
+  &:before {
+    content: '';
+
+    display: block;
+    background: #242b58;
+    width: 90%;
+    height: 2px;
+    margin: 7px auto;
+  }
+
+  &:after {
+    margin-top: 30px
+  }
+
+  .tab-item {
+    opacity: 1;
+  }
+
+  .nav-tabs {
+    padding-left: 25px;
+    margin-bottom: 0;
+  }
+
+  .tab-link.active {
+    .image-holder{
+      background-image: linear-gradient(to bottom, $pink, $pink);
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+
+
+  .tab-item {
+    .tab-link {
+      position: initial;
+      display: initial;
+    }
+  }
+
+  .tab-content {
+    padding: 0 24px;
+  }
+
+  .image-holder {
+    display: flex;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+  
+    background-image: linear-gradient(to bottom, #9b3e87, #552f9c);
+    border-radius: 5px;
+
+    // .icon {
+    //   width: 25px;
+    //   height: 25px;
+    // }
+
+    img {
+      display: block;
+      height: 25px;
+      width: 25px;
+    }
+
+    &:hover {
+      background-image: linear-gradient(to bottom, #ef277c, #ef277c);
+    }
+  }
+  
+  .tab-title {
+    margin-top: 12px;
+  
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  .tab-pane-title {
+    // margin-top: 19px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $purple;
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,216 @@
+
+.login-form {
+  padding: 76px 0;
+
+  text-align: center;
+  color: $white;
+
+  .content-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  .title {
+    margin-bottom: 18px;
+
+    font-size: 27px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .icon-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 36px 0 27px;
+  }
+
+  .social-link {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    height: 60px;
+    width: 60px;
+
+    border: 1px solid $purple;
+    border-radius: 50%;
+
+    &:not(:last-child) {
+      margin-right: 21px;
+    }
+  }
+
+  .social-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+  }
+
+  .form-group {
+    margin-bottom: 23px;
+
+    text-align: initial;
+  }
+
+  .form-check {
+    display: flex;
+    padding-left: initial;
+  }
+
+  label {
+    margin-bottom: 9px;
+
+    font-size: 14px;
+
+    a {
+      margin-left: 4px;
+
+      color: $purple;
+      text-decoration: underline;
+    }
+  }
+
+  select,
+  input {
+    padding: 0 0 12px;
+
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid $fiord;
+    border-radius: 0;
+    box-shadow: 0px 7px 7px -6px rgba(85, 47, 156, 0.47);
+
+    font-family: $font-poppins-regular;
+    font-size: 17px;
+
+    &[type=number] {
+      border-bottom: 2px solid $grape;
+
+      &:focus {
+        border-color: $grape;
+      }
+    }
+
+    &:focus {
+      background-color: transparent;
+      box-shadow: 0px 7px 7px -6px rgb(85, 47, 156);
+      border-color: $fiord;
+    }
+  }
+
+  .select-holder {
+    position: relative;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 17%;
+      right: 2px;
+
+      width: 7px;
+      height: 7px;
+
+      border-right: 2px solid $white;
+      border-bottom: 2px solid $white;
+
+      transform: rotate(45deg);
+      transition: .25s ease-out;
+    }
+  }
+
+  select {
+    width: 54px;
+  }
+
+  .phone-holder {
+    display: flex;
+
+    input,
+    select {
+      color: $white;
+
+      &::placeholder {
+        font-size: 17px;
+        color: $white;
+      }
+    }
+
+    input {
+      margin-left: 0px;
+    }
+  }
+
+  .password-holder {
+    position: relative;
+
+    input {
+      color: $white;
+    }
+
+    .eye-icon {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .check-box {
+    position: relative;
+
+    display: block;
+    padding-left: 25px;
+    cursor: pointer;
+    
+    user-select: none;
+
+    input {
+      position: absolute;
+      
+      height: 0;
+      width: 0;
+      opacity: 0;
+      cursor: pointer;
+
+      &:checked ~ .checkmark:after {
+        display: block;
+      }
+    }
+
+    .checkmark {
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+      height: 16px;
+      width: 16px;
+      
+      border: 2px solid $grape;
+      border-radius: 5px;
+
+      &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+
+        display: none;
+        width: 5px;
+        height: 10px;
+        
+        border: solid $white;
+        border-width: 0 2px 2px 0;
+        transform: translate(-50%, -62%) rotate(45deg);
+      }
+    }
+  }
+
+  .button-holder {
+    margin: 19px 0 28px;
+  }
+}

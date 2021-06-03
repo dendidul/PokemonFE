@@ -1,0 +1,81 @@
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $font-Poppins-Regular;
+}
+
+p {
+  font-family: $font-poppins-regular;
+  font-size: 16px;
+}
+
+.section-title {
+  font-size: 22px;
+  color: $white;
+}
+
+.c-white {
+  color: $white;
+}
+
+.c-violet {
+  color: $violet;
+}
+
+.c-grape {
+  color: $grape;
+}
+
+.c-purple {
+  color: $purple;
+}
+
+.c-pink {
+  color: $pink;
+}
+
+.c-light-pink {
+  color: $light-pink;
+}
+
+.c-green {
+  color: $green;
+}
+
+.bg-navy {
+  background-color: $navy;
+}
+
+.shadow-violet {
+  box-shadow: 1px 6px 12px -2px rgba(85,47,156,1);
+}
+
+.section-heading {
+  padding: 0 20px;
+}
+
+
+.section-title,
+.see-all-link {
+  font-family: $font-codec-cold-trial-bold;
+}
+
+.see-all-link {
+  font-size: 17px;
+  color: $grape;
+}
+
+.section-title-white {
+  color: $white;
+}
+
+.section-title-violet {
+  color: $purple;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.section-title-uppercase {
+  text-transform: uppercase;
+}

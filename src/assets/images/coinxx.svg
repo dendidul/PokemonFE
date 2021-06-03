@@ -1,0 +1,33 @@
+<svg id="coin" xmlns="http://www.w3.org/2000/svg" width="22.677" height="24.332" viewBox="0 0 22.677 24.332">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: #a07be6;
+      }
+
+      .cls-2 {
+        fill: #925afb;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #f0edea;
+      }
+
+      .cls-5 {
+        font-size: 14px;
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+        letter-spacing: 0.025em;
+      }
+    </style>
+  </defs>
+  <path id="Path_551" data-name="Path 551" class="cls-1" d="M11.383,0A11.378,11.378,0,0,0,0,11.294,11.454,11.454,0,0,0,11.383,22.677,11.339,11.339,0,0,0,11.383,0Z"/>
+  <path id="Path_552" data-name="Path 552" class="cls-2" d="M55.968,11.294A11.378,11.378,0,0,1,44.674,22.677V0A11.3,11.3,0,0,1,55.968,11.294Z" transform="translate(-33.291)"/>
+  <path id="Path_553" data-name="Path 553" class="cls-3" d="M19.155,10.43a8.681,8.681,0,1,0,8.637,8.637A8.73,8.73,0,0,0,19.155,10.43Z" transform="translate(-7.772 -7.772)"/>
+  <path id="Path_554" data-name="Path 554" class="cls-4" d="M53.311,19.067a8.73,8.73,0,0,1-8.637,8.726V10.43A8.654,8.654,0,0,1,53.311,19.067Z" transform="translate(-33.291 -7.772)"/>
+  <text id="f" class="cls-5" transform="translate(9 17.332)"><tspan x="0" y="0">f</tspan></text>
+</svg>

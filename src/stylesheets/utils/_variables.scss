@@ -1,0 +1,61 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+$font-codec-cold-trial-bold: "CodecColdTrial-Bold";
+$font-poppins-regular: "Poppins-Regular";
+$font-Poppins-Regular: "Poppins-Regular";
+$font-roboto: "Roboto";
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: #222 !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #E50050 !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '../assets/' !default;
+
+// Other Variables
+
+$white: #ffffff;
+$black: #000000;
+
+$pink: #FD2281;
+$light-pink: #f5abc8;
+$bright-pink: #F7247F;
+$salmon-pink: #FF9BC3;
+$petal: #FFB4CC;
+$violet: #2b136f;
+$hot-violet: #060E38;
+$darkened-violet: #071042;
+$purple: #925AFB;
+$grape: #552F9C;
+$navy: #071143;
+$eggplant: #2C1677;
+$fiord: #40476e;
+$dim-gray: #707070;
+$sunflower: #FEB100;
+// $violet: #595761;
+$grape: #552F9C;
+$navy: #071143;
+$fiord: #484952;
+$dim-gray: #707070;
+$green: #1BC359;
+$mud: #B78E1E;
+$light-yellow: #FFFAC8;

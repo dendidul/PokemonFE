@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.213" height="27.213" viewBox="0 0 27.213 27.213">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #da2e73;
+      }
+
+      .cls-2 {
+        filter: url(#origami);
+      }
+    </style>
+    <filter id="origami" x="0" y="0" width="27.213" height="27.213" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-color="#fd3777" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="origami-2" data-name="origami" class="cls-1" d="M14.622.377a1.283,1.283,0,0,0-1.31-.315L.892,4.093A1.29,1.29,0,0,0,.628,6.427a.585.585,0,0,0,.106.05l3.8,1.346V9.687a.586.586,0,0,0,.586.586H7.091l1.426,3.994a.581.581,0,0,0,.049.1,1.273,1.273,0,0,0,1.1.628,1.324,1.324,0,0,0,.15-.008,1.276,1.276,0,0,0,1.082-.883l.509-1.565a.586.586,0,0,0-1.115-.362l-.509,1.565a.11.11,0,0,1-.1.081.108.108,0,0,1-.092-.028L8.144,9.736l2.841-4.929A.586.586,0,0,0,10.2,4L5.068,6.768,1.2,5.4a.119.119,0,0,1,.053-.191l12.42-4.031a.118.118,0,0,1,.148.149L11.247,9.249a.586.586,0,1,0,1.114.362l2.576-7.923A1.284,1.284,0,0,0,14.622.377ZM7.157,9.1H5.708V7.754L8.939,6.01Zm0,0" transform="translate(13.61 2) rotate(45)"/>
+  </g>
+</svg>

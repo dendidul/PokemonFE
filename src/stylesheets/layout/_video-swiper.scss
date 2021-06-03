@@ -1,0 +1,33 @@
+.swiper-video {
+  .content-container {
+    padding: 0;
+  }
+
+  video {
+    border-radius: 13px;
+  }
+}
+
+.d-wrap {
+  white-space: nowrap;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  & > * {
+    width: 155px;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  &-100{
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    & > * {
+    width: 100px;
+    display: inline-block;
+    padding-right: 5px;
+  }
+}
+}

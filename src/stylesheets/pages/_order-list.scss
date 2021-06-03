@@ -1,0 +1,82 @@
+.order-list-wrapper {
+  .order-wrapper {
+    display: flex;
+    padding: 12px;
+
+    width: 100%;
+    margin-bottom: 10px;
+
+    border: 1px solid $grape;
+    border-radius: 5px;
+  }
+
+  .order-data{
+    display: flex;
+    align-items: center;
+    flex: 0 0 56%;
+
+    font-family: $font-poppins-regular;
+    color: $white;
+
+    border-right: 1px solid $purple;
+
+    .round-image {
+      max-width: 30px;
+      max-height: 30px;
+    }
+
+    .order-cred {
+      padding: 0 11px;
+    }
+
+    .idol-name {
+      margin-top: 3px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .order-id {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 10px;
+    }
+  }
+
+  .order-status-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 0 42%;
+    margin-left: 11px;
+
+    font-family: $font-poppins-regular;
+
+    .status-label {
+      margin-bottom: 0;
+
+      font-size: 10px;
+      color: $white;
+    }
+
+    .order-arrow {
+      margin-top: 5px;
+    }
+
+    .order-status {
+      margin-bottom: 0;
+
+      font-size: 12px;
+      color: $salmon-pink;
+    }
+  }
+
+  .swiper-container {
+    margin: 0;
+
+    .swiper-slide {
+      margin-right: 15px !important;
+      min-width: 100px;
+    }
+  }
+}

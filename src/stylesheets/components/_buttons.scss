@@ -1,0 +1,174 @@
+.btn {
+  font-family: $font-poppins-regular;
+  font-size: 17px;
+  // text-transform: uppercase;
+
+  width: 100%;
+
+  &-icon {
+    margin-right: 15px;
+
+    svg {
+      width: 30px;
+      height: 15px;
+
+      fill: $white;
+    }
+  }
+}
+
+.btn-pink {
+  padding: 17px 15px;
+  background-color: $pink;
+  box-shadow: 0px 6px 13px 0px rgba(253, 34, 129, 0.44);
+  border: 2px solid transparent;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 23px;
+  letter-spacing: 0.75px;
+
+  &:hover {
+    color: $pink;
+
+    background-color: $white;
+    border: 2px solid $dim-gray;
+  }
+}
+
+.btn-white {
+  padding: 17px 15px;
+  
+  color: $violet;
+
+  background-color: $white;
+  border: 2px solid $dim-gray;
+  border-radius: 30px;
+
+  &:hover {
+    color: $white;
+
+    background-color: $violet;
+  }
+}
+
+.btn-book {
+  display: block;
+  padding: 8px;
+  margin: 19px auto 0;
+
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  
+  background: linear-gradient(to right, #801767, #f32a85);
+  border-radius: 23px;
+}
+
+.back.col .btn-book:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: .6;
+}
+
+.btn-logo {
+  margin-right: 7px;
+  height: 12px;
+}
+// PILLS
+
+.pills-wrapper {
+  display: flex;
+}
+
+.btn-border-violet {
+  padding: 17px 15px;
+  
+  border: 2px solid $grape;
+  border-radius: 30px;
+
+  &:hover {
+    color: $violet;
+
+    background-color: $white;
+    border: 2px solid $dim-gray;
+  }
+}
+
+.btn-border-green {
+  padding: 17px 15px;
+  
+  border: 2px solid $green;
+  border-radius: 30px;
+
+  &:hover {
+    color: $green;
+    background-color: $white;
+    border: 2px solid $dim-gray;
+  }
+}
+
+.btn-border-pink {
+  padding: 17px 15px;
+  
+  border: 2px solid $pink;
+  border-radius: 30px;
+
+  &:hover {
+    background-color: $white;
+    border: 2px solid $dim-gray;
+  }
+}
+
+.btn-border-violet {
+  padding: 17px 15px;
+  
+  border: 2px solid $grape;
+  border-radius: 30px;
+
+  &:hover {
+    background-color: $white;
+    border: 2px solid $dim-gray;
+  }
+}
+
+.btn-gradient-pink {
+  padding: 17px 15px;
+  
+  background-image: linear-gradient(to right, #a4175e, #b41965, #c41b6c, #d51d73, #e61f79, #ee207c, #f5217e, #fd2281, #fd2281, #fd2281, #fd2281, #fd2281);
+  border-radius: 30px;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.btn-gradient-violet {
+  padding: 17px 15px;
+  
+  background-image: linear-gradient(to right, #0a1042, #0c104d, #100e58, #170b63, #20056d);
+  border-radius: 30px;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.btn-submit {
+  padding: 17px 15px;
+  background-color: #FD2281;
+  box-shadow: 0px 6px 13px 0px rgba(253, 34, 129, 0.25);
+  border: 2px solid transparent;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  font-family: "Poppins-Regular";
+  font-weight: bold;
+  color: $white;
+  height: 60px;
+
+  &:hover {
+    color: #FD2281;
+    background-color: transparent;
+    border: 2px solid #FD2281;
+  }
+}

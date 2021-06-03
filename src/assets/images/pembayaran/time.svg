@@ -1,0 +1,19 @@
+<svg id="time" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <g id="Group_944" data-name="Group 944">
+    <g id="Group_943" data-name="Group 943">
+      <path id="Path_538" data-name="Path 538" class="cls-1" d="M8.536,1.464A5,5,0,0,0,1.464,8.536a5,5,0,0,0,6.123.744.391.391,0,1,0-.4-.668A4.256,4.256,0,1,1,8.5,7.342a.391.391,0,1,0,.649.434,4.988,4.988,0,0,0-.617-6.311Z"/>
+    </g>
+  </g>
+  <g id="Group_946" data-name="Group 946" transform="translate(3.063 1.484)">
+    <g id="Group_945" data-name="Group 945">
+      <path id="Path_539" data-name="Path 539" class="cls-1" d="M158.741,76a.391.391,0,0,0-.391.391v2.963l-1.432,1.432a.391.391,0,0,0,.552.552l1.547-1.547a.391.391,0,0,0,.114-.276V76.391A.391.391,0,0,0,158.741,76Z" transform="translate(-156.804 -76)"/>
+    </g>
+  </g>
+</svg>

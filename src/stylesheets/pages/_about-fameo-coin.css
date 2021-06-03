@@ -1,0 +1,39 @@
+.fameo-coin-wrapper .after-heading-wrapper {
+  padding-top: 30px;
+}
+
+.fameo-coin-wrapper .how-paryment-m .nav-tabs .nav-item.show .nav-link, .fameo-coin-wrapper .how-paryment-m .nav-tabs .nav-link.active {
+  border-bottom: solid;
+  border-radius: 0;
+  opacity: 1;
+}
+
+.fameo-coin-wrapper .how-paryment-m .nav-tabs .nav-item.show .nav-link, .fameo-coin-wrapper .how-paryment-m .nav-tabs .nav-link.active {
+  color: #925afb;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid;
+}
+
+.fameo-coin-wrapper .how-paryment-m .nav-tabs .nav-link {
+  white-space: normal;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.38px;
+  font-weight: bold;
+  color: #925afb;
+  background: transparent;
+  padding: 20px 0 11px 0;
+  margin-right: 35px;
+  opacity: .5;
+}
+
+.fameo-coin-wrapper .how-paryment-m .nav-tabs .nav-link:focus, .fameo-coin-wrapper .how-paryment-m .nav-tabs .nav-link:hover {
+  border-color: transparent;
+  color: #925afb;
+  border-bottom: solid;
+}
+
+.fameo-coin-wrapper .nav-tabs .nav-item {
+  width: 50%;
+}

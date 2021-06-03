@@ -1,0 +1,11 @@
+<svg id="pause" xmlns="http://www.w3.org/2000/svg" width="12.683" height="17.5" viewBox="0 0 12.683 17.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <path id="Path_491" data-name="Path 491" class="cls-1" d="M150.428,0h3.8a.428.428,0,0,1,.428.428V17.072a.428.428,0,0,1-.428.428h-3.8a.428.428,0,0,1-.428-.428V.428A.428.428,0,0,1,150.428,0Zm0,0" transform="translate(-141.972)"/>
+  <path id="Path_492" data-name="Path 492" class="cls-1" d="M.428,0h3.8a.428.428,0,0,1,.428.428V17.072a.428.428,0,0,1-.428.428H.428A.428.428,0,0,1,0,17.072V.428A.428.428,0,0,1,.428,0Zm0,0"/>
+</svg>

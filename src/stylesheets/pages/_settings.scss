@@ -1,0 +1,53 @@
+.profile-settings-wrapper {
+  .after-heading-short-wrapper {
+    padding-top: 30px;
+  }
+
+  .border-bottom-wrapper {
+    padding: 30px 0 25px;
+
+    &:first-child {
+      padding-top: 0;
+    }
+    a div:hover {
+        opacity: .6;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+  }
+
+  .setting-item-wrapper {
+    .setting-title-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $white;
+    }
+
+    .setting-title {
+      font-size: 15px;
+    }
+
+    .setting-subheading {
+      margin-bottom: 0;
+
+      font-size: 13px;
+      color: #8388a1;
+    }
+  }
+
+  .btn-border-pink {
+    margin: 30px 0;
+    border: 3px solid #FD2281;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(232, 41, 120, 0.3);
+    font-size: 15px;
+
+    &:hover {
+      color: white;
+      background-color: #FD2281;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+@charset 'UTF-8';
+
+// Configuration and helpers
+@import
+  'utils/variables',
+  'utils/functions',
+  'utils/mixins';
+
+// Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+// Layout-related sections
+@import
+  'layout/header',
+  'layout/footer',
+  'layout/global-styles',
+  'layout/taskbar',
+  'layout/video-swiper',
+  'layout/cards',
+  'layout/badge',
+  'layout/fan-questions',
+  'layout/tabs',
+  'layout/login-form',
+  'layout/entertainment',
+  'layout/details',
+  'layout/total',
+  'layout/fan-comment',
+  'layout/best-voted',
+  'layout/talent-feedback.scss',
+  'layout/notfication-card-listing',
+  'layout/notification-detail',
+  'layout/question-list';
+
+// Components
+@import
+  'components/buttons',
+  'components/search-bar',
+  'components/textbox',
+  'components/select-bar';
+
+// Page-specific styles
+@import
+  'pages/home',
+  'pages/about',
+  'pages/sign-in',
+  'pages/splash-screen',
+  'pages/intro',
+  'pages/permissions',
+  'pages/detail',
+  'pages/profile',
+  'pages/search',
+  'pages/search-talent',
+  'pages/order-list',
+  'pages/order-detail',
+  'pages/order-review',
+  'pages/upload',
+  'pages/order',
+  'pages/details-qa',
+  'pages/search-qa',
+  'pages/settings',
+  'pages/profile-update',
+  'pages/order-ready',
+  'pages/order-info',
+  'pages/talent-profile',
+  'pages/order-payment-notification',
+  'pages/order-payment-notification-details',
+  'pages/withdraw-funds',
+  'pages/order-generate-virtual-account',
+  'pages/order-rincian',
+  'pages/order-method-payment',
+  'pages/order-rincian-how-payment',
+  'pages/order-promo-code',
+  'pages/order-payment-success',
+  'pages/order-withdraw-success',
+  'pages/order-detail-record',
+  'pages/order-video-review',
+  'pages/order-video-finish',
+  'pages/terms-conditions',
+  'pages/help',
+  'pages/my-coin',
+  'pages/history-coin',
+  'pages/faq',
+  'pages/about-fameo-coin',
+  'pages/store',
+  'pages/detail-store',
+  'pages/sticker',
+  'pages/detail-sticker',
+  'pages/live-streaming';

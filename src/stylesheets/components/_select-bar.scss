@@ -1,0 +1,25 @@
+
+.select-bar {
+  padding: 0 0 8px;
+
+  font-size: 17px;
+  color: $fiord;
+
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.465' height='5' viewBox='0 0 8.465 5'%3E%3Cg id='download' transform='translate(0 -100.698)'%3E%3Cg id='Group_821' data-name='Group 821' transform='translate(0 100.698)'%3E%3Cpath id='Path_456' data-name='Path 456' d='M8.33,101.116l-.277-.279a.464.464,0,0,0-.655,0L4.234,104l-3.167-3.167a.464.464,0,0,0-.655,0l-.277.278a.463.463,0,0,0,0,.655l3.77,3.784a.473.473,0,0,0,.328.149h0a.473.473,0,0,0,.327-.149l3.767-3.774a.468.468,0,0,0,.135-.331A.463.463,0,0,0,8.33,101.116Z' transform='translate(0 -100.698)' fill='%23fff'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A") no-repeat;
+  background-size: 10px;
+  background-position: 100% 40%;
+  border: 0;
+  border-bottom: 2px solid $fiord;
+  border-radius: inherit;
+
+  ::placeholder {
+    font-size: 17px;
+  }
+
+  &:focus {
+    background-color: transparent;
+    border-color: initial;
+    box-shadow: initial;
+    outline: initial;
+  }
+}

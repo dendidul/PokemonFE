@@ -1,0 +1,165 @@
+.content-pembayaran {
+    padding-top: 10px;
+}
+.box-promo-pembayaran {
+    border: solid 1px #552f9c;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.box-promo-pembayaran p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+.box-promo-pembayaran a {
+    color: #925afb;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+.content-pembayaran .form-group h4 {
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 23px;
+    color: #fafafa;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.rincian-order-section {
+    text-align: left;
+}
+.rincian-order-section h4 {
+    font-family: $font-codec-cold-trial-bold;
+    font-size: 18px!important;
+    line-height: 37px!important;
+    letter-spacing: 0.45px!important;
+}
+.rincian-order-section p {
+    font-family: $font-poppins-regular;
+    font-size: 11px!important;
+    line-height: 18px!important;
+    letter-spacing: 1.1px!important;
+    color: #fff;
+    margin-bottom: 3px;
+    margin-top: 15px;
+    font-weight: 200;
+}
+.rincian-order-section h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px!important;
+    line-height: 23px!important;
+    letter-spacing: 1.5px!important;
+    color: #fafafa;
+    font-weight: 200;
+}
+.rincian-order-section-2 p {
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #fff;
+    font-weight: 200;
+    text-align: left;
+}
+.rincian-order-section-2 a {
+    color: #a380e4;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+
+.rincian-order-section-3 {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 19px;
+}
+.content-pembayaran .form-group a {
+    color: #925afb;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.how-paryment-m .nav-tabs .nav-item.show .nav-link, .how-paryment-m .nav-tabs .nav-link.active {
+    border-bottom: solid;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.how-paryment-m .nav-tabs .nav-item.show .nav-link, .how-paryment-m .nav-tabs .nav-link.active {
+    color: #925afb;
+    background-color:transparent;
+    border: none;
+    border-bottom: solid;
+}
+
+.how-paryment-m .nav-tabs .nav-link {
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.38px;
+    font-weight: bold;
+    color: #925afb;
+    background: transparent;
+    padding: 20px 0 11px 0;
+    margin-right: 35px;
+    opacity: .5;
+}
+
+.how-paryment-m .nav-tabs .nav-link:focus, .how-paryment-m .nav-tabs .nav-link:hover {
+    border-color: transparent;
+    color: #925afb;
+    border-bottom: solid;
+}
+
+.tab-content ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+.tab-content ul.timeline:before {
+    content: '';
+    background: #925afb;
+    display: inline-block;
+    position: absolute;
+    left: 4px;
+    width: 2px;
+    height: 80%;
+    z-index: 400;
+}
+.tab-content ul.timeline > li {
+    margin: 20px 0;
+}
+.tab-content ul.timeline > li:before {
+    content: '';
+    background: #925afb;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    z-index: 400;
+}
+.tab-content ul.timeline p {
+    color: #fff;
+}
+
+.copy-text--- {
+    float: right;
+    color: #925afb;
+    font-weight: bold;
+    font-size: 14px;
+}
+.copy-text---border {
+    border-bottom: dashed 1px #717171;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+.notification-card-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 28px;
+  padding-left: 2px;
+}
+
+.notification-card-listing .notification-card {
+  padding: 20px 0;
+  border-bottom: 1px solid #232b58;
+}
+
+.notification-card-listing .notification-card:first-child {
+  padding: 0 0 20px;
+}
+
+.notification-card-listing .notification-card:last-child {
+  border-bottom: none;
+}
+
+.notification-card-listing .title {
+  letter-spacing: 0.65px;
+  font-size: 13px;
+}
+
+.notification-card-listing .description {
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.notification-card-listing .time {
+  font-size: 11px;
+  letter-spacing: 1.1px;
+}

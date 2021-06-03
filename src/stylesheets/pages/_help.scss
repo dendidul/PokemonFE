@@ -1,0 +1,97 @@
+.help-wrapper {
+  .after-heading-wrapper {
+    padding-top: 30px;
+  }
+
+  .round-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+  }
+
+  .profile-image-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto 30px;
+  }
+
+  .dropzone {
+    background: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 36px;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .dropzone-data {
+    margin: 5px auto 0;
+  }
+
+  .update-form-wrapper {
+    padding-bottom: 73px;
+  }
+
+  .phone-holder {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .select-holder {
+    flex: 0 0 15%;
+  }
+
+  .phone-input {
+    flex: 0 0 83%;
+  }
+
+  .textbox {
+    font-size: 15px;
+  }
+
+  .textbox,
+  .title-textbox {
+    font-family: $font-poppins-regular;
+    color: $white;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+  }
+  .password-holder {
+    position: relative;
+  }
+  #show-hide-kata-sandi {
+    position: absolute;
+    right: 0;
+    margin-top: -25px;
+    z-index: 44;
+    cursor: pointer;
+  }
+  #show-hide-kata-sandi:hover {
+    opacity: .6;
+  }
+  .gcaptcha {
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    background-color: #eee;
+  }
+  .p-atau {
+    color: #d1d2dc;
+    font-size: 14px;
+    letter-spacing: 1.53px;
+    text-align: center;
+    padding: 35px 0 15px;
+  }
+  .btn {
+    letter-spacing: 0.75px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9b3e87"/>
+      <stop offset="1" stop-color="#2c1677"/>
+    </linearGradient>
+    <filter id="correct" x="0" y="0" width="150" height="150" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#552f9c" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_890" data-name="Group 890" transform="translate(-5293 674)">
+    <g id="Group_1009" data-name="Group 1009">
+      <path id="Path_497" data-name="Path 497" d="M50.433,0A50.433,50.433,0,1,1,0,50.433,50.433,50.433,0,0,1,50.433,0Z" transform="translate(5317.358 -654.641)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 5293, -674)" filter="url(#correct)">
+        <path id="correct-2" data-name="correct" d="M60,0a60,60,0,1,0,60,60A60.066,60.066,0,0,0,60,0ZM90.41,47.285l-32.5,32.5a5,5,0,0,1-7.07,0L34.59,63.535a5,5,0,1,1,7.07-7.07L54.375,69.18,83.34,40.215a5,5,0,0,1,7.07,7.07Zm0,0" transform="translate(15 10)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

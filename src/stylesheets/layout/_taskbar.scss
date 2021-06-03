@@ -1,0 +1,79 @@
+.taskbar {
+  position: sticky;
+  z-index: 99998;
+  bottom: -1px;
+  width: 100%;
+  margin-top: 20px;
+  background: #091042;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+}
+
+.taskbar-wrapper {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 0;
+
+  list-style-type: none;
+}
+
+.taskbar-item {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+
+  &:hover {
+    opacity: .7;
+
+    // .taskbar-icon {
+    //   svg {
+    //     .gradient {
+    //       stop {
+    //         &:first-child {
+    //           stopColor: #99125C;
+    //         }
+
+    //         &:last-child {
+    //           stopColor: #8C2361
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}
+
+.profile-icon {
+  position: relative;
+
+  &:last-child {
+    &:after {
+      content: '';
+      position: absolute;
+      top: 1px;
+      left: 13px;
+
+      background: $sunflower;
+      width: 10px;
+      height: 10px;
+      border-radius: 50px;
+    }
+  }
+}
+
+.btn-fameo {
+    position: relative;
+    background-image: linear-gradient(to bottom, #fd2281, #791666);
+    box-shadow: 0 5px 15px #ff00006f;
+    border-radius: 100%;
+    padding: 12px 0px;
+    margin: auto;
+    margin-top: -43px;
+    height: 60px;
+    width: 60px;
+
+  .btn-fameo-image {
+    width: 100%;
+    margin-left: 1px;
+    margin-top: -9px;
+  }
+}

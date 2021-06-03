@@ -1,0 +1,132 @@
+.talent-profile-wrapper {
+  background: #071143;
+  
+  .section-title {
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    font-family: $font-codec-cold-trial-bold;
+  }
+
+  .after-heading-wrapper {
+    padding: 0;
+  }
+
+  .live-video-wrapper {
+    width: 100%;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 14px;
+      margin-right: 5px;
+    }
+  }
+
+  .wrapper-btn-live {
+    display: flex;
+
+    .btn-live {
+      margin-right:10px ;
+    }
+    .btn-live:hover {
+      text-decoration: none;
+      opacity: .7;
+    }
+  }
+
+  .btn-live {
+    border: none;
+    color: #ffffff;
+    background: linear-gradient(300deg, #fe2b87 0%, #791666 44%, #791666 64%, #791666 100%);
+    padding: 0;
+    font-family: "Poppins-Regular";
+    font-weight: 100;
+    width: 100px;
+    border-radius: 40px;
+    height: 30px;
+    display: flex;
+    flex: unset;
+    align-items: center;
+
+    .lbl-live {
+      position: relative;
+      font-size: 10px;
+      vertical-align: middle;
+    }
+  }
+
+
+  .lbl-total {
+    font-family: $font-roboto;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.33px;
+  }
+
+  .lbl-amount {
+    font-family: $font-roboto;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+  }
+
+  .total-balance-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+
+    font-family: $font-roboto;
+    font-weight: 200;
+    color: white;
+
+    background: linear-gradient(265deg, rgba(44,22,119,1) 0%, rgba(72,39,144,1) 44%, rgba(79,44,151,1) 75%, rgba(85,47,156,1) 100%);
+    border-radius: 5px;
+
+    .btn-pink {
+      border-radius: 50px;
+      padding: 10px 15PX;
+      align-self: center;
+      color: white;
+      font-size: 10px;
+      font-family: $font-poppins-regular;
+      border: solid 2px #b51b72;
+
+      &:hover {
+        background-color: $pink;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .user-name {
+    letter-spacing: 0.45px;
+    font-family: $font-codec-cold-trial-bold;
+    margin-bottom: 6px;
+  }
+
+  .section-reaction {
+    margin-bottom: 2em;
+  }
+  .rating-wrapper {
+    display: flex;
+    flex-direction: row;
+    .start {
+      height: auto;
+      width: 16px;
+      margin-right: 5px;
+    }
+  }
+
+  .section-title-violet {
+    color: #fafafa;
+  }
+
+  .circle-crown {
+    display: none!important;
+  }
+
+}

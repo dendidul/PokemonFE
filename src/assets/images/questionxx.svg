@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.158" height="28.299" viewBox="0 0 24.158 28.299">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+      }
+
+      .cls-2 {
+        filter: url(#question_2_);
+      }
+    </style>
+    <filter id="question_2_" x="0" y="0" width="24.158" height="28.299" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_880" data-name="Group 880" transform="translate(-328.96 -516.579)">
+    <path id="chat" class="cls-1" d="M.782,20a.781.781,0,0,1-.724-1.074l1.774-4.388A8.64,8.64,0,0,1,0,9.219,8.812,8.812,0,0,1,2.954,2.676,10.385,10.385,0,0,1,10,0a10.385,10.385,0,0,1,7.046,2.676A8.812,8.812,0,0,1,20,9.219,8.675,8.675,0,0,1,18.414,14.2a.781.781,0,0,1-1.281-.895,7.12,7.12,0,0,0,1.3-4.09C18.438,5,14.653,1.563,10,1.563S1.563,5,1.563,9.219A7.142,7.142,0,0,0,3.323,13.9a.781.781,0,0,1,.13.8L2.227,17.728,5.8,16.155a.781.781,0,0,1,.622,0,9.217,9.217,0,0,0,7.7-.246.781.781,0,0,1,.708,1.393,10.787,10.787,0,0,1-8.7.42L1.1,19.934A.78.78,0,0,1,.782,20Z" transform="translate(331 518.4)"/>
+    <g class="cls-2" transform="matrix(1, 0, 0, 1, 328.96, 516.58)">
+      <path id="question_2_2" data-name="question (2)" class="cls-1" d="M174.079,130.3a.733.733,0,1,1,.733-.733A.733.733,0,0,1,174.079,130.3Zm.733-3.3v-.984a3.056,3.056,0,1,0-2.883-5.154,3,3,0,0,0-.929,2.18.733.733,0,1,0,1.466,0,1.548,1.548,0,0,1,.48-1.123,1.622,1.622,0,0,1,1.2-.451,1.583,1.583,0,0,1,.29,3.132,1.37,1.37,0,0,0-1.087,1.345V127a.733.733,0,0,0,1.466,0Z" transform="translate(-162 -114)"/>
+    </g>
+  </g>
+</svg>

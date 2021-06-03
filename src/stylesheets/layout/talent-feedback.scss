@@ -1,0 +1,18 @@
+.talent-feedback-wrapper {
+  .feedback-slide-wrapper {
+    padding: 15px;
+    border: 1px solid $grape;
+    border-radius: 7px;
+  }
+
+  .talent-rating-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .talent-feedback {
+    font-family: $font-poppins-regular;
+    color: $white;
+    font-size: 13px;
+  }
+}

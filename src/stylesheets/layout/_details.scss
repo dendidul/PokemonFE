@@ -1,0 +1,16 @@
+.detail-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+
+  font-family: $font-poppins-regular;
+  color: $white;
+
+  .detail-title {
+    font-size: 11px;
+  }
+
+  .detail-data {
+    font-size: 15px;
+  }
+}

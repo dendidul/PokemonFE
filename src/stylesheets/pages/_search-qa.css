@@ -1,0 +1,57 @@
+.search-qa-wrapper {
+  background: #071143;
+}
+
+.search-qa-wrapper .search-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.search-qa-wrapper .search-wrapper .search-bar {
+  flex: 0 0 92%;
+  padding-top: 0;
+  margin-right: 10px;
+}
+
+.search-qa-wrapper .search-wrapper .search-bar .form-group {
+  margin: 0;
+}
+
+.search-qa-wrapper .section-title {
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  letter-spacing: 0.38px;
+  font-weight: bold;
+}
+
+.search-qa-wrapper .see-all-link {
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  color: #925afb;
+}
+
+.search-qa-wrapper .swiper-container {
+  margin: 0;
+}
+
+.search-qa-wrapper .owner-name {
+  font-family: "Poppins-Regular" !important;
+  font-size: 14px !important;
+}
+
+.search-qa-wrapper .second-row .best-question {
+  letter-spacing: 1.3px;
+  line-height: 18px;
+}
+
+.search-qa-wrapper .see-question.question-by {
+  font-family: "Poppins-Regular";
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  line-height: 17px;
+}
+
+.search-qa-wrapper .btn-vote .fan-votes {
+  font-size: 9px;
+}

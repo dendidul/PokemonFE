@@ -1,0 +1,135 @@
+.section-fan-comment {
+  padding-bottom: 20px;
+
+  .section-heading {
+    margin-top: 27px;
+  }
+
+  .spacing {
+    padding-bottom: 80px;
+  }
+
+  .card-question {   
+    padding: 17px 18px 20px;
+
+    background: linear-gradient(to right, #552f9c, #9b3e87);
+    border-radius: 7px;
+
+    .profile-holder {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .profile-picture {
+      width: 29px;
+   }
+  
+    .profile-name {
+      margin-left: 8px;
+      margin-bottom: 0;
+
+      font-size: 11px;
+    }
+
+    .text-holder {
+      margin-top: 13px;
+    }
+
+    .question-description {
+      font-size: 13px;
+      color: $light-pink;
+    }
+
+    .question-statement {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+  }
+
+  .comment-card {
+    display: flex;
+    margin-bottom: 7px;
+
+    .profile-picture {
+      width: 51px;
+   }
+
+    .image-wrapper {
+      width: 21%;
+    }
+
+    .text-wrapper {
+      width: 85%;
+    }
+
+    .name {
+      margin-top: -2px;
+      margin-bottom: 0;
+  
+      font-size: 13px;
+   }
+
+   .date-time {
+     margin-top: 2px;
+     margin-bottom: 0;
+     
+     font-size: 14px;
+     font-weight: 100;
+     color: #666c8a;
+    }
+
+    .comment {
+      margin-top: 5px;
+      font-size: 15px;
+      line-height: 19px;
+   }
+  }
+
+  .btn-pink {
+    margin-top: 29px;
+    padding: 5px;
+  }
+
+  .btn-icon {
+    width: 46px;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
+  .btn-link {
+    width: 4%;
+  }
+
+  .comments {
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 7px;
+      
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    input {
+      width: 87%;
+
+      font-family: $font-poppins-regular;
+
+      background: none;
+      border-color: $grape;
+    }
+  }
+
+  .comment-listing {
+    margin-top: 21px;
+  }
+
+  .btn-border-violet {
+    margin-top: 15px;
+  }
+}

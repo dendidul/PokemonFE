@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f7f6fb;
+      }
+
+      .cls-2 {
+        filter: url(#Path_486);
+      }
+    </style>
+    <filter id="Path_486" x="0" y="0" width="33" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="smile" transform="translate(9 6)">
+    <g id="Group_859" data-name="Group 859">
+      <g id="Group_858" data-name="Group 858">
+        <g class="cls-2" transform="matrix(1, 0, 0, 1, -9, -6)">
+          <path id="Path_486-2" data-name="Path 486" class="cls-1" d="M12.8,2.2A7.5,7.5,0,0,0,2.2,12.8a7.5,7.5,0,0,0,9.184,1.116.586.586,0,1,0-.607-1,6.384,6.384,0,1,1,1.982-1.9.586.586,0,1,0,.974.651A7.482,7.482,0,0,0,12.8,2.2Z" transform="translate(9 6)"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_861" data-name="Group 861" transform="translate(3.984 8.438)">
+      <g id="Group_860" data-name="Group 860">
+        <path id="Path_487" data-name="Path 487" class="cls-1" d="M142.445,288h-5.859a.586.586,0,0,0-.586.586,3.516,3.516,0,0,0,7.031,0A.586.586,0,0,0,142.445,288Zm-2.93,2.93a2.348,2.348,0,0,1-2.27-1.758h4.539A2.348,2.348,0,0,1,139.516,290.93Z" transform="translate(-136 -288)"/>
+      </g>
+    </g>
+    <g id="Group_863" data-name="Group 863" transform="translate(8.414 4.289)">
+      <g id="Group_862" data-name="Group 862">
+        <path id="Path_488" data-name="Path 488" class="cls-1" d="M289.918,147.845h-1.136l.324-.582a.586.586,0,1,0-1.024-.57l-.81,1.453a.586.586,0,0,0,.512.871h2.133a.586.586,0,0,0,0-1.172Z" transform="translate(-287.199 -146.392)"/>
+      </g>
+    </g>
+    <g id="Group_865" data-name="Group 865" transform="translate(3.17 4.289)">
+      <g id="Group_864" data-name="Group 864">
+        <path id="Path_489" data-name="Path 489" class="cls-1" d="M111.43,148.146l-.81-1.453a.586.586,0,0,0-1.024.57l.324.582h-1.136a.586.586,0,0,0,0,1.172h2.133a.586.586,0,0,0,.512-.871Z" transform="translate(-108.199 -146.392)"/>
+      </g>
+    </g>
+  </g>
+</svg>

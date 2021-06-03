@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="7.725" viewBox="0 0 12 7.725">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="eye" transform="translate(0 -82.176)">
+    <g id="Group_1421" data-name="Group 1421" transform="translate(4.069 84.107)">
+      <g id="Group_1420" data-name="Group 1420" transform="translate(0 0)">
+        <path id="Path_1295" data-name="Path 1295" class="cls-1" d="M158.347,156.416a1.931,1.931,0,1,0,1.931,1.931A1.933,1.933,0,0,0,158.347,156.416Zm-.147,1.358a.443.443,0,0,0-.44.44h-.639a1.092,1.092,0,0,1,1.079-1.079Z" transform="translate(-156.416 -156.416)"/>
+      </g>
+    </g>
+    <g id="Group_1423" data-name="Group 1423" transform="translate(0 82.176)">
+      <g id="Group_1422" data-name="Group 1422" transform="translate(0 0)">
+        <path id="Path_1296" data-name="Path 1296" class="cls-1" d="M11.86,85.639c-.653-.812-2.983-3.463-5.86-3.463S.792,84.826.14,85.639a.641.641,0,0,0,0,.8C.792,87.25,3.123,89.9,6,89.9s5.208-2.65,5.86-3.463A.641.641,0,0,0,11.86,85.639ZM6,88.835a2.8,2.8,0,1,1,2.8-2.8A2.8,2.8,0,0,1,6,88.835Z" transform="translate(0 -82.176)"/>
+      </g>
+    </g>
+  </g>
+</svg>
