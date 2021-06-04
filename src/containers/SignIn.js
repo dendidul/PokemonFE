@@ -107,7 +107,7 @@ const SignIn = () => {
             </FormGroup>
            
             <div className="button-holder">
-              <SingleButton type="submit" _onclick={submit} content={{ text: 'MASUK KE AKUN SAYA', color: 'pink' }} />
+              <SingleButton type="submit" _onclick={submit} content={{ text: 'DAFTAR / MASUK KE AKUN SAYA', color: 'pink' }} />
             </div>
            
           </div>
