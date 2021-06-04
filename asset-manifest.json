@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PokemonFE/static/css/main.11a8dc93.chunk.css",
-    "main.js": "/PokemonFE/static/js/main.d46f4b96.chunk.js",
-    "main.js.map": "/PokemonFE/static/js/main.d46f4b96.chunk.js.map",
+    "main.js": "/PokemonFE/static/js/main.fd36f6ff.chunk.js",
+    "main.js.map": "/PokemonFE/static/js/main.fd36f6ff.chunk.js.map",
     "runtime-main.js": "/PokemonFE/static/js/runtime-main.637d0465.js",
     "runtime-main.js.map": "/PokemonFE/static/js/runtime-main.637d0465.js.map",
     "static/css/2.266846fb.chunk.css": "/PokemonFE/static/css/2.266846fb.chunk.css",
@@ -35,6 +35,6 @@
     "static/css/2.266846fb.chunk.css",
     "static/js/2.2f96ed84.chunk.js",
     "static/css/main.11a8dc93.chunk.css",
-    "static/js/main.d46f4b96.chunk.js"
+    "static/js/main.fd36f6ff.chunk.js"
   ]
 }
