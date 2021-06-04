@@ -27,10 +27,14 @@ const SignIn = () => {
      axios.post(`${getPokemonBeUrl()}/api/PokemonData/ValidateLogin/`, param)
    
        .then((res) => {      
-         if(res.data.message == 'valid'){
+         if(res.data.message == 'valid' || res.data.message == 'success'){
          setCookie('userid', res.data.result.id, 1)
          setCookie('username', res.data.result.username, 1)
          history.push("/profile");
+       }
+       else
+       {         
+         alert('Username / password tidak valid');
        }
       })
    
