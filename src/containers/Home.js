@@ -131,7 +131,7 @@ const Search = () => {
         <div className="container">
           {/* <Form className="search-bar"> */}
             <div className="search-bar">
-            <FormGroup>
+            {/* <FormGroup>
               <Input
                 type="inputs"
                 name="search"
@@ -141,7 +141,7 @@ const Search = () => {
                 placeholder="Cari berdasarkan nama pokemon"
               />
               <span className="search-icon" />
-            </FormGroup>
+            </FormGroup> */}
               </div>
          
           <TabContent className="results-holder" activeTab={activeTab}>

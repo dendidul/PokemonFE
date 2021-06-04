@@ -26,9 +26,9 @@ class App extends Component {
             <Route path="/" exact component={Home} />
             <Route path="/signin" exact component={SignIn} />
             <Route path="/profile" exact component={Profile} />
-            <Route path="/pokemonupdate" exact component={PokemonUpdate} />
+            <Route path="/pokemonupdate/:id" exact component={PokemonUpdate} />
             <Route path="/detail/:pokemonname" exact component={Detail} />
-                       <Route component={NoRouteMatch} />
+            <Route component={NoRouteMatch} />
           </Switch>
           {/* <Footer /> */}
           {/* </ContextProvider> */}

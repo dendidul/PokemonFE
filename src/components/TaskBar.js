@@ -79,7 +79,7 @@ const TaskBar = ({active}) => {
           </Link>
         </li>*/}
         <li className="taskbar-item">
-          <Link to="/signin" className="taskbar-icon profile-icon">
+          <Link to="/profile" className="taskbar-icon profile-icon">
             <svg className="taskbar-svg" xmlns="http://www.w3.org/2000/svg" width="23.6" height="23.6" viewBox="0 0 23.6 23.6">
               <defs>
                 <linearGradient id="linear-gradient" className="gradient" x1="0.5" y1="0.686" x2="0.5" gradientUnits="objectBoundingBox">

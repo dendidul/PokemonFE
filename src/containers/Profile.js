@@ -1,80 +1,32 @@
 import React, { useState, useEffect } from 'react'
+import { Link, useHistory } from 'react-router-dom'
+import axios from 'axios';
 import Swiper from 'react-id-swiper';
 import TaskBar from '../components/TaskBar'
 import ProfileData from '../components/ProfileData'
 import Header from '../components/Header'
 import { Form, FormGroup, Input, TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap'
-// import CardSwiperProfile from "../components/CardSwiperProfile"
-// import CardSwiper from "../components/CardSwiper"
+
 import { Collapse } from 'reactstrap';
 import Total from '../components/Total'
 import { getDetailTalent, getOrderList, getFavourite } from '../services/profile';
 import Loading from '../components/Loading';
 import ProfileCard from '../components/ProfileCard';
+import { getCookie ,eraseCookie} from '../helpers'
 
-import Burger from '../assets/images/icon-burger-menu.svg'
-import Settings from '../assets/images/icon-settings.svg'
-import Boxone from '../assets/images/gift-box.svg'
-import Boxtwo from '../assets/images/main-box.svg'
-import Boxthree from '../assets/images/order-box.svg'
-import Boxfour from '../assets/images/favorit-box.svg'
+import { getPokemonBeUrl } from "../helpers";
 
 
-const gqlQuery = `query pokemons($limit: Int, $offset: Int) {
-  pokemons(limit: $limit, offset: $offset) {
-    count
-    next
-    previous
-    status
-    message
-    results {
-      url
-      name
-      image
-    }
-  }
-}`;
-
-const gqlVariables = {
-  limit: 4,
-  offset: 1,
-};
-
-const UserProfileData = {
-  type: 'user',
-  icon: require('../assets/images/img-idol-1.png'),
-  name: "John Doe",
-  inbox: 2,
-  notif: true
-}
-
-const contentSwiperData = {
-  headingData: {
-    heading: "Order Saya",
-    headingColor: "white",
-    linkName: "Lihat Semua",
-    url: "/orderList",
-    // headingLetters: 'uppercase',
-  },
-
-  isNormalCard: true,
-};
 
 
-const contentSwiperData2 = {
-  headingData: {
-    heading: "Favorit Saya",
-    headingColor: "white",
-    linkName: "Lihat Semua",
-    url: "/"
-  },
-  isNormalCard: true,
 
-}
+
+
 
 const Profile = (props) => {
+  const history = useHistory();
   const [talents, setTalents] = useState([]);
-  const [orders, setOrders] = useState([]);
+  const [pokemonlist, setpokemonlist] = useState([]);
   const [favourite, setFavourite] = useState([]);
   const [error, setError] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
@@ -83,6 +35,9 @@ const Profile = (props) => {
   const [modal, setModal] = useState(false);
   const [searchResults, setSearchResults] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  
+  const [cookieusername] = useState(getCookie("username"));
+  const [cookieuserid] = useState(getCookie("userid"));
   // const toggle = () => {
   //   setModal(!modal);
   // }
@@ -98,119 +53,96 @@ const Profile = (props) => {
     
   }
 
-  const getsearchVideo = () => {
-    // let params = {
-    //   limitall: 20
-    // }
-    // fectData(params)
-
-    fetch('https://graphql-pokeapi.vercel.app/api/graphql', {
-      credentials: 'omit',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        query: gqlQuery,
-        variables: gqlVariables,
-      }),
-      method: 'POST',
-    })
-      .then((res) => res.json()
-      )
-      
-      .then((res) => {
-          setSearchResults(res.data.pokemons.results)
-          setIsLoading(false)
-      // console.log(res)
-         //setSearchResults(res.data.pokemons.results)
-      })
-     
-        .catch(err => {
-          // setError(true);
-          console.log(err);
-        });
-
-  //   fetch('https://graphql-pokeapi.vercel.app/api/graphql', {
-  //   credentials: 'omit',
-  //   headers: { 'Content-Type': 'application/json' },
-  //   body: JSON.stringify({
-  //     query: gqlQuery,
-  //     variables: gqlVariables,
-  //   }),
-  //   method: 'POST',
-  // })
-  //   .then((res) => res.json()
-  //   )
-  //    .then((res) => 
-    
-  //    setSearchResults(res.data.pokemons.results));
   
+
+
+  const UserProfileData = {
+ 
+    name: cookieusername,
+   
   }
 
+  const Signout = () => {
+    eraseCookie('userid');
+    eraseCookie('username');
+    history.push("/signin/");
+  }
+ 
   const getData = async () => {
-      
-    setError(false);
-    let params = {
-      userid: 622
-    }
-    getDetailTalent(params)
-      .then(resp => {
-        setTalents(resp.UserModel);
-      })
-      .catch(err => {
-        setError(true);
-        console.log(err);
-      }); 
+    
+    let param =
+            { user_id : parseInt(cookieuserid) }
+            
+            axios.post(`${getPokemonBeUrl()}/api/PokemonData/GetListPokemon`, param)
+   
+            .then((res) => {      
+              if(res.data.message == 'success'){
+             let resultdata = {
+                 id : res.data.result.id,
+                 user_id : res.data.result.user_id,
+                 pokemon_id : res.data.result.pokemon_id,
+                 pokemon_origin_name : res.data.result.pokemon_origin_name,
+                 pokemon_nickname : res.data.result.pokemon_nickname,
+                 pokemon_img :res.data.result.pokemon_img
+             }
 
-      params = {
-        UserId: 622
-      }
-      getOrderList(params) 
-      .then(resp => {
-        setOrders(resp);
-      })
-      .catch(err => {
-        setError(true);
-        console.log(err);
-      }); 
+             setpokemonlist(res.data.result)
+             setIsLoading(false)
+             
+            }
+           })   
 
-      getFavourite(params) 
-      .then(resp => {
-        setFavourite(resp);
-      })
-      .catch(err => {
-        setError(true);
-        console.log(err);
-      }); 
+    
   };
   useEffect(() => {
     window.scroll(0,0)
-    getsearchVideo()
-    getData();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    //getsearchVideo()
+    getData();  
+    
+   
+
+    if(cookieusername == "")
+    {
+      history.push("/signin/");
+    }
+    
+
+ 
   }, []);
-  console.log(favourite);
+ 
   
   return (
     <div className="section-profile">
       <Header content={{ title: 'Profile Saya', BtnLeftIcon: "", BtnRightIcon: "Simpan" }} />
       <div className="after-heading-wrapper">
         <div className="container px-0"> 
-          {<ProfileData content={UserProfileData} icon={talents}/>}
-    
-            {/* {!orders && <Loading/> }
-            { orders && <div className="section-gift mt-4"><CardSwiperProfile contentSwiper={contentSwiperData} contents={orders} /> 
-            </div>}
-            {!orders && <Loading/> }
-            {favourite && <div className="section-favorite mt-4 pb-3">
-              <CardSwiper contentSwiper={contentSwiperData2} dataTalent={favourite}/>
-            </div>} */}
+          {/* {<ProfileData content={UserProfileData} icon={talents}/>} */}
+          <div className="profile-wrapper">
+      <div className="container px-0">
+        <div className="profile-data">
+          {/* "profile-image-wrapper with-notif" */}
+          <div className="profile-image-wrapper">
+            <img src="https://i.pinimg.com/564x/18/d9/e1/18d9e1307018dbc76750ca7d5124fccd.jpg" className="round-image" alt="ic" />
+          </div>
+          <div className="user-data-wrapper">
+            <p className="user-name"> Hi, {cookieusername}</p>
+            <p>
+            <a class="btn navbar-btn btn-danger" href="#" onClick={Signout}>Sign Out</a>
+            </p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+            
         </div>
         <p className="name" style={{color:'white'}}>My List Pokemon</p>
         <div className="container px-0">
         <TabContent className="results-holder" activeTab={activeTab}>
             {isLoading && <div className="height-100"><Loading/></div>}
             <TabPane className="tab-content -m-1" tabId="1">
-              {!!searchResults &&
-                searchResults.map((item, i) => (
+              {!!pokemonlist &&
+                pokemonlist.map((item, i) => (
                   <div className="w-50 d-inline-block p-1" key={i}>
                     <ProfileCard content={item}/>
                   </div>
