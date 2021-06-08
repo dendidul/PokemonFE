@@ -11,10 +11,16 @@ import Question from '../assets/images/icon-question-msg.svg'
 import LeftArrow from '../assets/images/icon-left-arrow.svg'
 
 import TaskBar from '../components/TaskBar'
+import SweetAlert  from 'react-bootstrap-sweetalert';
 
 import Loading from '../components/Loading';
 import SingleButton from '../components/Button'
 import { getCookie } from '../helpers'
+import { confirmAlert } from 'react-confirm-alert'; // Import
+import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
+import swal from 'sweetalert';
+
+
 
 const contentSwiperData = {
   headingData: {
@@ -55,7 +61,8 @@ const Detail = (props) => {
   const history = useHistory();
   const { pokemonname } = useParams();
   const [pokemonImage, setpokemonImage] = useState();
- 
+  const [warningnotif, setwarningnotif] = useState(false);
+
   const gqlQuery = `query pokemon($name: String!) {
     pokemon(name: $name) {
       id
@@ -100,14 +107,34 @@ const Detail = (props) => {
 
 
     e.preventDefault();
+    var getuserid = userId  ;
+    // if(getuserid == null)
+    // {
+    //   swal("Silahkan login terlebih dahulu")
+    //   .then((value) => {
+    //     history.push("/signin/")
+    //   });
+    // }
+    // else
+    // {
 
     const randomInt = randomIntFromInterval(1, 2);
 
-    if(randomInt == 1)
+    if(randomInt == 1 )
     {
-      var r = window.confirm("Pokemonmu berhasil tertangkap yuk simpan pokemonmu");
-      if (r == true) {
-       let param = {
+    
+     swal({
+      title: "Success",
+      text: "Pokemonmu berhasil tertangkap yuk simpan pokemonmu!",
+      icon: "success",
+      buttons: true,
+     
+    })
+    .then((res) => {
+      if (res) {
+       
+
+        let param = {
         "user_id": parseInt(userId),
         "pokemon_id": pokemonId || "",
         "pokemon_origin_name": pokemonname,
@@ -124,14 +151,33 @@ const Detail = (props) => {
           history.push("/pokemonUpdate/"+res.data.result.id);
          }
         })
+
       } 
+      else {
+        //swal("Your imaginary file is safe!");
+      }
+    });
 
      
-    }
+    
+  }
     else
     {
-      alert('gagal');
+    
+
+      var src = "https://thumbs.gfycat.com/CloudyGraciousArmyant-size_restricted.gif";
+   
+      var htmldata = "<img src='"+src+"' style='width:150px;'>";
+      swal({
+     
+         icon: "error",
+        text:"Tidak semudah itu ferguso , Pokemonmu gagal tertangkap !",
+         button: "OK"
+      
+      });
+
     }
+  // }
 
   
 
@@ -242,12 +288,16 @@ const Detail = (props) => {
 
     
 
+
      
     </div>
       </div>
     </div>
     <TaskBar />
   </div>
+
+
+  
 
   )
 }

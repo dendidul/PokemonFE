@@ -2,19 +2,22 @@ import React, {useEffect, useState} from 'react'
 import axios from 'axios';
 import { getPokemonBeUrl } from "../helpers";
 import { Link, useHistory } from 'react-router-dom'
-import { Form, FormGroup, Label, Input } from 'reactstrap';
+import { Form, FormGroup, Label, Input } from 'reactstrap'
 
-import SingleButton from '../components/Button'
+import SingleButton from '../components/Button';
+import SweetAlert  from 'react-bootstrap-sweetalert';
+import { ValidateLogin } from "../services/signup";
 
- import { ValidateLogin } from "../services/signup";
 import { setCookie } from "../helpers";
 import { post } from 'superagent';
+import swal from 'sweetalert';
 
 const SignIn = () => {
   const history = useHistory();
   const [Username, setUserName] = useState('');
   const [password, setPassword] = useState('');
   const [passwordShown, setPasswordShown] = useState(false);
+  const [warningnotif, setwarningnotif] = useState(false);
 
   const param = {
     username: Username,
@@ -34,7 +37,15 @@ const SignIn = () => {
        }
        else
        {         
-         alert('Username / password tidak valid');
+         //alert('Username / password tidak valid');
+        // setwarningnotif(true);
+        swal({
+     
+          icon: "error",
+          text:"Username / password yang anda masukkan tidak valid",
+          button: "OK"
+       
+       });
        }
       })
    
@@ -117,6 +128,28 @@ const SignIn = () => {
           </div>
         </div>
 
+        <SweetAlert
+        danger
+        show={warningnotif}
+        confirmBtnText="OK"
+        title=""
+        onConfirm={() => {
+          setwarningnotif(false);
+          //window.location.href = '/signin';
+        }}
+        onCancel={() => {
+          setwarningnotif(false);
+        }}
+        onEscapeKey={() => {
+          setwarningnotif(false);
+        }}
+        onOutsideClick={() => {
+          setwarningnotif(false);
+        }}
+      >
+        
+        <p style={{ fontSize: '13pt' }}>Username / Password tidak valid</p>
+      </SweetAlert>
        
       
             

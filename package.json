@@ -19,6 +19,8 @@
     "node-sass": "^4.14.1",
     "react": "^17.0.2",
     "react-apollo": "^3.1.5",
+    "react-bootstrap-sweetalert": "^5.1.11",
+    "react-confirm-alert": "^2.7.0",
     "react-dom": "^17.0.2",
     "react-hot-loader": "^4.12.19",
     "react-id-swiper": "^3.0.0",
@@ -27,6 +29,7 @@
     "reactstrap": "^8.4.1",
     "sfcookies": "^1.0.2",
     "superagent": "^5.2.2",
+    "sweetalert": "^2.1.2",
     "swiper": "^5.3.6",
     "web-vitals": "^1.0.1"
   },

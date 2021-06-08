@@ -14,6 +14,7 @@ import Profile from './containers/Profile';
 import PokemonUpdate from './containers/PokemonUpdate';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './stylesheets/main.scss';
+import './stylesheets/components/img.scss';
 
 class App extends Component {
   render() {
