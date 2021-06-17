@@ -64,7 +64,7 @@ const SignIn = () => {
         <div className="content-wrapper">
           <h2 className="title">Selamat Datang di Dunia Pokemon!</h2>
           <p><iframe src="https://giphy.com/embed/kuWN0iF9BLQKk" width="84" height="64" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pokemon-running-kuWN0iF9BLQKk"></a></p></p>
-          <p>Masuk ke dalam akunmu.</p>
+          <p>Masuk/Daftar ke dalam akunmu.</p>
           <div className="icon-holder">
            
           </div>

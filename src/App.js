@@ -24,8 +24,8 @@ class App extends Component {
           {/* <ContextProvider> */}
           {/* <Header /> */}
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/signin" exact component={SignIn} />
+            <Route path="/Home" exact component={Home} />
+            <Route path="/" exact component={SignIn} />
             <Route path="/profile" exact component={Profile} />
             <Route path="/pokemonupdate/:id" exact component={PokemonUpdate} />
             <Route path="/detail/:pokemonname" exact component={Detail} />

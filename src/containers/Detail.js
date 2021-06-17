@@ -271,7 +271,7 @@ const Detail = (props) => {
           {/* <SingleButton  content={{ text: 'Tangkap Pokemon', color: 'pink' }} /> */}
           <div className="row pills-section">
           <div className="pills-wrapper mx-auto">
-            <Link to="/" className="pill pill-yellow">
+            <Link to="/Home" className="pill pill-yellow">
               <p className="pill-text" style={{color:'black'}}>Kembali</p>
               
             </Link>

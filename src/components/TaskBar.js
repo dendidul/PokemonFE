@@ -13,7 +13,7 @@ const TaskBar = ({active}) => {
        <ul className="taskbar-wrapper">
      
         <li className={active === "search"?"taskbar-item active": "taskbar-item"} style={{width:"50%"}}> 
-          <Link to="/" className="taskbar-icon">
+          <Link to="/Home" className="taskbar-icon">
             <svg className="taskbar-svg" xmlns="http://www.w3.org/2000/svg" width="23.6" height="23.6" viewBox="0 0 23.6 23.6">
               <defs>
                 <linearGradient className="gradient" id="linear-gradient" x1="0.572" y1="-0.093" x2="0.599" y2="0.4" gradientUnits="objectBoundingBox">
